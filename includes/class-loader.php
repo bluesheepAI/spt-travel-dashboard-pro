@@ -36,7 +36,7 @@ class SPT_Loader {
 
     ob_start();
 
-    include SPT_PLUGIN_PATH . 'templates/dashboard.php';
+    require_once SPT_PLUGIN_PATH . 'templates/dashboard.php';        
 
     return ob_get_clean();
 
