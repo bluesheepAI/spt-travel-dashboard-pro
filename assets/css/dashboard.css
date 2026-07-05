@@ -1,10 +1,28 @@
-/*
-====================================================
-SachaPakistani Travel Dashboard Pro
-Version: 0.1
-====================================================
-*/
+/* ======================================
+   SachaPakistani Travel Dashboard Pro
+   Version 1.0
+====================================== */
 
-body{
+#spt-dashboard{
+
     font-family:Arial,Helvetica,sans-serif;
+
+    max-width:1200px;
+
+    margin:30px auto;
+
+    padding:25px;
+
+}
+
+.spt-card{
+
+    background:#ffffff;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
 }
