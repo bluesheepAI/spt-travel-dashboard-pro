@@ -19,5 +19,7 @@ define('SPT_PLUGIN_PATH', plugin_dir_path(__FILE__));
 define('SPT_PLUGIN_URL', plugin_dir_url(__FILE__));
 
 require_once SPT_PLUGIN_PATH . 'includes/class-loader.php';
+require_once SPT_PLUGIN_PATH . 'includes/class-admin.php';
 
 new SPT_Loader();
+new SPT_Admin();
