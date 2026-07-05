@@ -34,8 +34,12 @@ class SPT_Loader {
 
     public function dashboard() {
 
-        return '<h2>SPT Travel Dashboard Coming Soon...</h2>';
+    ob_start();
 
-    }
+    include SPT_PLUGIN_PATH . 'templates/dashboard.php';
+
+    return ob_get_clean();
+
+}
 
 }
