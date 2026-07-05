@@ -6,15 +6,17 @@ if (!defined('ABSPATH')) {
 
 <div id="spt-dashboard">
 
-    <h1>🚗 SachaPakistani Travel Dashboard</h1>
+    <h1>SachaPakistani Travel Dashboard</h1>
 
-    <div class="spt-card">
+<div class="spt-card">
 
-        <h2>Travel Dashboard</h2>
+    <h2>Travel Dashboard</h2>
 
-        <p>Plugin installed successfully.</p>
+    <p>Status: <strong>Plugin Loaded Successfully</strong></p>
 
-        <p>Version 0.1</p>
+    <p>Version: 1.0.0</p>
+
+</div>
 
     </div>
 
